@@ -1,0 +1,15 @@
+inner_port: 8081
+outer_port: 8082
+logpath: ./log/ucgo.log_
+mongo:
+  mongos: mongodb://127.0.0.1:27017
+  replset: mongodb://127.0.0.1:27017
+redis:
+  cluster:
+    list:
+      - 127.0.0.1:6379
+    pwd: 123
+  cluster2:
+    list:
+      - 127.0.0.1:6379
+    pwd: 123
