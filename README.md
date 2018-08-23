@@ -1,6 +1,8 @@
 # ucgo
 go框架
 
+go的web框架，集成了热重启，gin路由，rsa+des+sign标准的接口加密方式，各种中间件可自行扩展，有mongo、redis的链接示例、网上go使用以太坊的教程也比较少都是web3的，集成了TokenERC20的示例
+
 ##需求
 
 ####软件
